@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Proyecto Final: login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/estilo_login.css" type="text/css">
+    </head>
+    <body>
+        <ul>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li class="active"><a href="buscador.html">Buscador</a></li>
+            <li class="active"><a href="login.html">Login</a></li>
+            <li class="active"><a href="registro.html">Registro</a></li>
+        </ul>
+        <div class="content">
+            <h1>Login de Usuarios</h1>
+            <br />
+            <div id="cajaLogin">
+                <fieldset>
+                <legend>Datos del usuario</legend>
+                    <form method="POST" action="ServletUsuario">
+                        <br />
+                        <label>Nombre de usuario: </label>
+                        <input type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre" /> 
+                        <br />
+                        <br />
+                        <label>Contraseña: </label>
+                        <input type="password" name="contrasena_usuario" id="contrasena_usuario" placeholder="Contraseña" /> 
+                        <br />
+                        <br />
+                        <input type="submit" value="Ingresar" />
+                        <br />
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </body>
+</html>

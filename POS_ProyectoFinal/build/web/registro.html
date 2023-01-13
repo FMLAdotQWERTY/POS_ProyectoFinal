@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Proyecto Final: registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/estilo_registro.css" type="text/css">
+    </head>
+    <body>
+        <ul>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li class="active"><a href="buscador.html">Buscador</a></li>
+            <li class="active"><a href="login.html">Login</a></li>
+            <li class="active"><a href="registro.html">Registro</a></li>
+        </ul>
+        <div class="content">
+            <h1>Registro del usuario</h1>
+            <br />
+            <div id="cajaRegistro">
+                <fieldset>
+                <legend>Datos del usuario</legend>
+                    <form method="POST" action="http://localhost:8080/POS_ProyectoFinal/webresources/usuarios">
+                        <br />
+                        <label>Nombre de usuario: </label>
+                        <input type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre" required/> 
+                        <br />
+                        <br />
+                        <label>Contraseña: </label>
+                        <input type="password" name="contrasena_usuario" id="contrasena_usuario" placeholder="Contraseña" required/> 
+                        <br />
+                        <br />
+                        <label>Nombre completo: </label>
+                        <input type="text" name="nombre_completo" id="nombre_completo" placeholder="Nombre completo" required/> 
+                        <br />
+                        <br />
+                        <label>Edad: </label>
+                        <input type="number" name="edad" id="edad" placeholder="Edad" required/> 
+                        <br />
+                        <br />
+                        <label>Genero: </label>
+                        <input type="text" name="genero" id="genero" placeholder="Genero" required/> 
+                        <br />
+                        <br />
+                        <label>Correo electrónico: </label>
+                        <input type="text" name="correo" id="correo" placeholder="Correo electrónico" required/> 
+                        <br />
+                        <br />
+                        <input type="submit" value="Registrar"/>
+                        <br />
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </body>
+</html>
