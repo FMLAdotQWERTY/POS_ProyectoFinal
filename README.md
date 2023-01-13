@@ -9,6 +9,7 @@ El proyecto en **GitHub** se encuentra con la siguiente estructura:
 * La carpeta ***POS_LlenadoBD*** es el llenado de las preferencias en la base de datos. 
 * La carpeta ***POS_ProyectoFinal*** contiene la aplicación web. 
 * La carpeta ***doc_img*** contiene todas la imagenes de la documentación.
+* Los archivos ***.jar*** contienen las librerías externas.
 
 ***
 
